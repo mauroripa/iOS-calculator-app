@@ -31,6 +31,7 @@ body {
     height: 35vh;
 }
 .linebar input{
+    border: 1px solid black;
     background-color: black;
     color: white;
     text-align: end;
@@ -81,6 +82,7 @@ body {
     opacity: 80%;
     width: 60px;
     height: 60px;
+    border: 1px solid black;
     border-radius: 100px 100px; /* Optional for rounded buttons */
 }
 .opp{
@@ -95,6 +97,7 @@ body {
     background-color: #ff9f0a;
     width: 60px;
     height: 60px;
+    border: 1px solid black;
     border-radius: 100px 100px; /* Optional for rounded buttons */
 }
 .res{
@@ -109,5 +112,6 @@ body {
     background-color: #ff9f0a;
     width: 60px;
     height: 60px;
+    border: 1px solid black;
     border-radius: 100px 100px; 
 }

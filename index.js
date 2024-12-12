@@ -92,7 +92,7 @@ function calcola(numeri, operatori) {
                 result -= prossimoNumero;  // Sottrazione
                 break;
             case '+':
-                result += prossimoNumero;  // Somma
+                result =parseInt(result) + parseInt(prossimoNumero);  // Somma
                 break;
             default:
                 break;
